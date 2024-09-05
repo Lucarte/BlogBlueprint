@@ -1,13 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: [
-		"./index.html",
-		"./blog.js",
-		"./blog.html",
-		"./src/**/*.{js,ts,jsx,tsx}",
-	],
+	content: ["./index.html", "./blog.html", "./public/src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				times: ["Times New Roman", "serif"],
+			},
+		},
 	},
 	plugins: [],
 };
