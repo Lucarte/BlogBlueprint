@@ -107,7 +107,7 @@ function renderPosts(posts) {
 		let closeModalBtn = create("button", dialog, {
 			innerText: "Close",
 			className:
-				"modal-btn m-8 py-4 px-8 font-semibold hover:underline hover:bg-primary rounded-lg", // mirar por que no sirve
+				"modal-btn m-8 py-4 px-8 font-semibold hover:underline hover:bg-orange-600 hover:text-white rounded-lg",
 		});
 
 		// - // -  // -  // - // -  // -  // - // -  // EVENT LISTENER
